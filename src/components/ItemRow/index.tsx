@@ -4,10 +4,10 @@ import { Trash } from "@phosphor-icons/react";
 import StepContext from "../../contexts/StepContext";
 import { Text, Col, SubTitle, ButtonSecondary } from "../../styles/app";
 import { DisplayItemRow } from "./styles";
-import { WallItem } from "../../types/stepContextTypes";
+import { IUniqueItem } from "../../types/stepContextTypes";
 
 type ItemRowProps = {
-  e: WallItem;
+  e: IUniqueItem;
   i: number;
 };
 
@@ -34,7 +34,7 @@ const ItemRow: FC<ItemRowProps> = ({ e, i }) => {
       </Col>
       <Col>
         <Text>
-          Comprimento
+          Length
           <br />
           <br />
           {e.length}

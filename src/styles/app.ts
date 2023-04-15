@@ -60,7 +60,7 @@ export const TextWrapper = styled.div`
 
 export const ButtonPrimary = styled.button`
   padding: 10px 40px;
-  background: #f6d167;
+  background: #470063;
   border-radius: 8px;
   margin: 2rem 0;
   font-weight: 700;

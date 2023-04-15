@@ -18,8 +18,8 @@ export default function useInputData() {
   const schema = z.object({
     width: z
       .string()
-      .nonempty("largura é um campo requerido")
-      .regex(/^[+]?\d*\.?\d+$/, "Insira um número valido")
+      .nonempty("Width is a required field")
+      .regex(/^[+]?\d*.?\d+$/, "Enter a valid number")
       .refine(
         (value) => {
           if (value) {
@@ -27,16 +27,16 @@ export default function useInputData() {
           } else return true;
         },
         {
-          message: "Insira um número valido",
+          message: "Enter a valid number",
         }
       )
       .refine((value) => Number(value) >= 0, {
-        message: "largura tem que ser maior que 0",
+        message: "Width must be greater than 0",
       }),
     height: z
       .string()
-      .nonempty("altura é um campo requerido")
-      .regex(/^[+]?\d*\.?\d+$/, "Insira um número valido")
+      .nonempty("Height is a required field")
+      .regex(/^[+]?\d*.?\d+$/, "Enter a valid number")
       .refine(
         (value) => {
           if (value) {
@@ -44,11 +44,11 @@ export default function useInputData() {
           } else return true;
         },
         {
-          message: "Insira um número valido",
+          message: "Enter a valid number",
         }
       )
       .refine((value) => Number(value) >= 0, {
-        message: "Altura tem que ser maior que 0",
+        message: "Height must be greater than 0",
       }),
 
     length: z
@@ -62,7 +62,7 @@ export default function useInputData() {
           } else return true;
         },
         {
-          message: "Insira um número valido",
+          message: "Enter a valid number",
         }
       ),
     quantity: z
@@ -76,7 +76,7 @@ export default function useInputData() {
           } else return true;
         },
         {
-          message: "Insira um número valido",
+          message: "Enter a valid number",
         }
       ),
   });

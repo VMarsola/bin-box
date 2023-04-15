@@ -32,7 +32,7 @@ export const InputWrapper = styled(Col)`
     padding: 10px;
 
     :focus {
-      outline: 1px solid #f6d167;
+      outline: 1px solid #470063;
     }
   }
 
@@ -47,7 +47,7 @@ export const InputWrapper = styled(Col)`
   button {
     margin: 0 1rem;
     padding: 10px;
-    background: #f6d167;
+    background: #470063;
     border-radius: 8px;
 
     font-weight: 700;

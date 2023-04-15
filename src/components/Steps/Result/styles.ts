@@ -7,7 +7,7 @@ export const Wrapper = styled(Col)`
 
   button {
     padding: 10px 40px;
-    background: #f6d167;
+    background: #470063;
     border-radius: 8px;
     margin: 2rem 0;
     font-weight: 700;
@@ -34,7 +34,7 @@ export const Grid = styled.div`
     font-size: 1.5rem;
     svg {
       margin: 0 1rem 0 0;
-      fill: #f6d167;
+      fill: #470063;
     }
   }
 

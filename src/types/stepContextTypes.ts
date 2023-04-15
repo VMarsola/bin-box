@@ -7,10 +7,10 @@ export type IContextProps = {
 export type UniId = {
   uniqueiD: string;
 };
-export type ItemItem = Item & UniId;
+export type IUniqueItem = Item & UniId;
 
 export type IStepType = {
   stepIndex: number;
-  data: ItemItem[];
+  data: IUniqueItem[];
   response: Containers;
 };

@@ -1,13 +1,14 @@
-# Calculadora de Tinta
+# Paint Calculator
 
 <div align="center">
  <img  src="./src/assets/logo.svg" alt="ts" width="140"  height="140" />
 </div>
-Uma aplicação web ou mobile que ajuda o usuário a calcular a quantidade de tinta necessária para pintar uma sala. Com essa ferramenta, o usuário pode inserir as medidas da sala, o número de portas e janelas, e a calculadora apresentará a quantidade de tinta necessária para realizar a pintura.
 
-## Tecnologias Utilizadas
+Bin-box, a Web Application is a tool designed to help users find the best container for their specific needs. Simply enter the measurements of your items, and our intelligent calculator will provide you with the most suitable packaging solution.
 
-A aplicação foi desenvolvida utilizando as seguintes tecnologias:
+## Technologies Used
+
+The application was developed using the following technologies:
 
 - [Vite.js](https://vitejs.dev/)
 - [React.js](https://reactjs.org/)
@@ -18,30 +19,32 @@ A aplicação foi desenvolvida utilizando as seguintes tecnologias:
 - [TypeScript](https://www.typescriptlang.org/)
 - [Figma](https://www.figma.com/)
 
-## Instalação
+## Installation
 
-Para instalar a aplicação em sua máquina, siga os seguintes passos:
+To install the application on your machine, follow these steps:
 
-1. Clone o repositório para a sua máquina local utilizando o seguinte comando:
+1. Clone the repository to your local machine using the following command:
 
 ```sh
-git clone [url do repo]
+git clone [url of the repo]
 ```
 
-2. Instale as dependências utilizando o gerenciador de pacotes [npm](https://www.npmjs.com/):
+2. Install the dependencies using the package manager npm:
 
 ```sh
 npm install
+
 ```
 
-3. Rode a aplicação utilizando o seguinte comando:
+3, Run the application using the following command:
 
 ```sh
 npm run dev
+
 ```
 
-A aplicação será iniciada em modo de desenvolvimento no seu navegador padrão em [http://localhost:5173](http://localhost:5173).
+The application will start in development mode in your default browser at http://localhost:5173.
 
 ## Design
 
-Confira o design completo da aplicação no [Figma](https://www.figma.com/file/JP4ylZCYzAXaiFFXgWImEe/PaintColor?t=mavol0UQs7ydnqvj-1).
+Check out the full application design on [Figma](https://www.figma.com/file/JP4ylZCYzAXaiFFXgWImEe/PaintColor?t=mavol0UQs7ydnqvj-1).
