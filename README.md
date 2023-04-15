@@ -47,4 +47,4 @@ The application will start in development mode in your default browser at http:/
 
 ## Design
 
-Check out the full application design on [Figma](https://www.figma.com/file/JP4ylZCYzAXaiFFXgWImEe/PaintColor?t=mavol0UQs7ydnqvj-1).
+Check out the full application design on [Figma](https://www.figma.com/file/vmlSKXLvU69xqsnAuZueHx/BIN-BOX?node-id=0-1&t=DhNEwFdYOS8vzAsT-0).
