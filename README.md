@@ -1,7 +1,7 @@
 # Paint Calculator
 
 <div align="center">
- <img  src="./src/assets/logo.svg" alt="ts" width="140"  height="140" />
+ <img  src="./src/assets/Logo.svg" alt="ts" width="140"  height="140" />
 </div>
 
 Bin-box, a Web Application is a tool designed to help users find the best container for their specific needs. Simply enter the measurements of your items, and our intelligent calculator will provide you with the most suitable packaging solution.
