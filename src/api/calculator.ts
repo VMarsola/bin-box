@@ -3,6 +3,9 @@ import { CONTAINER_SIZES } from "../constants/containers";
 export const calculateVolume = (input: Item[]) => {
   let totalVolume = 0;
 
+
+
+  
   if (input.length <= 1) {
     let item = input[0];
     return item.length * item.width * item.height;
